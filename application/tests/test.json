@@ -1,0 +1,11 @@
+[{
+  "date": "2015-05-15T14:36:00.451765",
+  "md5checksum": "a3b4f1d16b94bebdb3e75dbf8b6b7445",
+  "name": "John Doe",
+  "uid": "1"
+}, {
+  "date": "2015-05-13T14:36:00.451765",
+  "md5checksum": "a1e3d53ece04038afcf2903e3a621106",
+  "name": "Jane Doe",
+  "uid": "2"
+}]
