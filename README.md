@@ -17,7 +17,7 @@ Tested to work with Python 2.7, MongoDB 2.6.11 and PyMongo 3.2
 
 Interface:
 * /store - POST endpoint, accepts a JSONObject or JSONArray of "uid,name,date,md5checksum". Expects application/json content-type, all fields are mandatory. Checksum is calculated as MD5 hash of JSON string of date,name,uid sorted by key name. Stores the structure in Mongo backend. See tests/ directory for sample JSON.
-* /count - GET endpoint, accepts 2 mandatory parameters, "uid" and "date". Returns a number of occurences of particular uid on a given day.
+* /count - GET endpoint, accepts 2 mandatory parameters, "uid" and "date". Returns a number of occurrences of particular uid on a given day.
 
 Configuration:
 application/app.py accepts "-c" parameter with path to config file, otherwise "config/test.cfg" is used. -d enables Flask debug mode.
